@@ -1,0 +1,55 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 72px;               
+  max-width: 1440px;        
+  margin: 0 auto;         
+  padding: 24px 64px;
+  background-color: #F7F7F7;
+  border-bottom: 1px solid #F2F4F7;
+}
+
+.logo {
+    text-decoration: none;
+  cursor: pointer;
+  color: inherit;
+  display: flex;
+  font-family: "Inter", sans-serif;
+  font-weight: 900;      
+  font-size: 20px;       
+  letter-spacing: -0.5px;
+  max-width: 136px;     
+  white-space: nowrap;
+  overflow: hidden;       
+}
+
+
+.logo span.trucks {
+  color: #475467;
+}
+
+
+
+.nav {
+  margin-left: 450px;         
+  display: flex;
+  gap: 32px;                 
+}
+
+
+.link {
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;           
+  font-size: 16px;
+  line-height: 24px;
+  color: #101828;            
+  transition: color 0.3s ease;
+}
+
+
+.link.active {
+  color: #D84343;             
+}
+
